@@ -1,0 +1,170 @@
+body{
+    background-color: #1A1A1D;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-size: 2rem;
+    color: #C3073F;
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.hands{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-right: 7rem;
+    
+}
+#Ohand{
+    height: 20rem;
+    width: 20rem;   
+}
+#Ohand:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+}
+#Shand{
+    height: 20rem;
+    width: 15rem;
+}
+#Shand:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+}
+
+#Thand{
+    height: 20rem;
+    width: 10rem;
+    margin-left: 5rem;
+}
+#Thand:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+}
+
+.start{
+    font-size: 2rem;
+    color: #C3073F;
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.start h1:hover{
+    color: #c9315f;
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: ease-in-out 0.7s;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.score{
+    margin:-2rem;
+    display: grid;
+    grid-template-columns: auto 3rem;
+
+}
+.arena{
+    display: grid;
+    grid-template-columns: 20rem 25rem 20rem;
+    /* display: flex;
+    flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+
+.user{
+    background-color: #6F2232;
+    border-radius: 30px;
+    border: 2px solid white;
+    /* align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content; */
+}
+.user img{
+    height: 20rem;
+    width: 20rem;
+    
+}
+.user h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #C3073F;
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.comp{
+    background-color: #6F2232;
+    border-radius: 30px;
+    border: 2px solid white;
+
+}
+.comp img{
+    height: 20rem;
+    width: 10rem;
+    margin-left: 5rem;
+    
+}
+.comp h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #C3073F;
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+
+.versus{
+    /* margin-left: 15rem; */
+    text-align: center;
+}
+
+/* .choice{
+    display: grid;
+    grid-template-columns: 14rem 14rem 14rem;
+} */
+.choice button{
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #6F2232;
+    color: #C3073F;
+    border-radius: 30px;
+    margin: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 2px solid white;
+}
+.choice button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: ease-in-out 0.2s;
+}
+
+.ref img{
+    height: 4rem;
+    width: 4rem;
+    margin-top: 5rem;
+    margin-left: 30rem;
+}
+.ref img:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: ease-in-out 0.4s;
+}
